@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap');
+* {
+    font-size: 60px;
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    color: chocolate;
+    line-height: 100px;
+}
+::-webkit-scrollbar {
+    width: 0;
+  }
+input {
+    overflow: hidden;
+}
+body {
+    background-image: url(https://w-dog.ru/wallpapers/9/18/424144997402879/pejzazh-zakat-nebo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#password{
+    border-style: none;
+    background-color: black;
+    color: chocolate;
+    border-radius: 20px;
+    
+}
+#name{
+    border-style: none;
+    background-color: black;
+    color: chocolate;
+    border-radius: 20px;
+}
+#repassword{
+    border-style: none;
+    background-color: black;
+    border-radius: 20px;
+    color: chocolate;
+}
+
+#button{
+    background-color: black;
+    color: chocolate;
+    border-style: none;
+    border-radius: 20px;
+}
+
+#button:hover {
+    background-color: chocolate;
+    color: black;
+    border-style: none;
+    border-radius: 20px;
+    cursor:pointer;
+    text-decoration: underline;
+}
+
